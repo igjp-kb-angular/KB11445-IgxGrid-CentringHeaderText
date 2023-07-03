@@ -1,0 +1,9 @@
+<div class="grid__wrapper">
+  <igx-grid #grid1 [data]="employess" [displayDensity]="'compact'" [autoGenerate]="false" [height]="'500px'" width="100%">
+    <igx-column field="ID" header="ID" [dataType]="'number'" [headerClasses]="'centered'"/>
+    <igx-column field="FamilyName" header="姓" [dataType]="'string'" [headerClasses]="'centered'"/>
+    <igx-column field="GivenName" header="名" [dataType]="'string'"/>
+    <igx-column field="Prefecture" header="県" [dataType]="'string'"/>
+    <igx-column field="City" header="市区町村" [dataType]="'string'"/>
+  </igx-grid>
+</div>

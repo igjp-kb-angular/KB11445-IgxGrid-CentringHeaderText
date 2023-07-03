@@ -1,0 +1,9 @@
+.grid__wrapper {
+    margin: 1em;
+}
+
+:host::ng-deep{
+    .centered {
+        text-align: center;
+    }
+}
